@@ -4,7 +4,7 @@ const URLS_TO_CACHE = [
  './index.html',
  './main.js',
  './manifest.webmanifest',
- 'https://cdn.tailwindcss.com',
+ 'https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4', //'https://cdn.tailwindcss.com',
  'https://unpkg.com/vue@3/dist/vue.global.prod.js'
 ];
 self.addEventListener('install', (event) => {
